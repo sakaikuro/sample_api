@@ -10,8 +10,6 @@ docker-compose up -d --build
 
 http://127.0.0.1:5001/
 
-path を入力し送信
-
 ### 停止&削除
 
 docker-compose down --rmi all

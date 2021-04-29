@@ -8,7 +8,7 @@ app = Flask(__name__)
 def post_json():
     try:
         image_path = request.form["image_path"]
-        assert image_path == "/image/d03f1d36ca69348c51aa/c413eac329e1c0d03/test.jp"
+        assert image_path == "/image/d03f1d36ca69348c51aa/c413eac329e1c0d03/test.jpg"
         # 【実装】image_pathを元にストレージから画像を取得
         # 【実装】取得した画像を推論
         class_label = 3
