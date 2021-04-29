@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>画像推論</title>
+  </head>
+  <body>
+    <form action="/post" method="POST">
+      <input
+        type="text"
+        name="image_path"
+        value="/image/d03f1d36ca69348c51aa/c413eac329e1c0d03/test.jpg"
+        placeholder="/image/d03f1d36ca69348c51aa/c413eac329e1c0d03/test.jpg"
+      />
+      <input type="submit" value="送信" />
+    </form>
+    {% if message %}
+    <p>【message】{{ message }}</p>
+    <p>【class】{{ class_label }}</p>
+    <p>【confidence】{{ confidence }}</p>
+    <p>Completed saving to database</p>
+    {% endif %}
+  </body>
+</html>
