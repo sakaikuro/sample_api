@@ -4,7 +4,7 @@
 
 ### 起動
 
-docker compose up -d --build
+docker compose up -d --build  
 (docker-compose up -d --build)
 
 ### リクエスト送信&DB 保存
@@ -13,7 +13,7 @@ http://127.0.0.1:5001/
 
 ### 停止&削除
 
-docker compose down --rmi all
+docker compose down --rmi all  
 (docker-compose down --rmi all)
 
 ### DB 管理
