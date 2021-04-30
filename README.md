@@ -4,7 +4,8 @@
 
 ### 起動
 
-docker-compose up -d --build
+docker compose up -d --build
+(docker-compose up -d --build)
 
 ### リクエスト送信&DB 保存
 
@@ -12,7 +13,8 @@ http://127.0.0.1:5001/
 
 ### 停止&削除
 
-docker-compose down --rmi all
+docker compose down --rmi all
+(docker-compose down --rmi all)
 
 ### DB 管理
 
@@ -36,5 +38,5 @@ http://127.0.0.1:8080/
   - 推論機能なし
 - MySQL
   - 機能：リクエスト結果を保管
-- phpMyApdmin
+- phpMyAdmin
   - 機能：MySQL の DB を Web ブラウザにて管理

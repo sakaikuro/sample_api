@@ -29,7 +29,7 @@ services:
     ports:
       - 3306:3306
 
-  # phpMyApdmin
+  # phpMyAdmin
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:5.1.0
     container_name: test_phpmyadmin
