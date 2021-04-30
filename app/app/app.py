@@ -38,6 +38,7 @@ def post():
         user="root",
         password="root",
         database="ai",
+        auth_plugin='mysql_native_password'
     )
     db_curs = db_connect.cursor()
     sql = f"""
