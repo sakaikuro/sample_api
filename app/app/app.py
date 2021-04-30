@@ -37,8 +37,7 @@ def post():
         port="3306",
         user="root",
         password="root",
-        database="ai",
-        auth_plugin='mysql_native_password'
+        database="ai"
     )
     db_curs = db_connect.cursor()
     sql = f"""
